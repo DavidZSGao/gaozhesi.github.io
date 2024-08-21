@@ -3,92 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe's Personal Website</title>
+    <title>Gao Zhesi - PhD Candidate in Finance</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🦦</text></svg>">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.8;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             color: #333;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
+            background-color: #003366;
+            color: #f0f0f0; /* Lightened color for better visibility */
+            padding: 2rem 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.3rem;
+            margin: 0;
+            color: #e0e0e0; /* Lightened further for readability */
         }
         nav {
             text-align: center;
             padding: 1rem;
-            background-color: #444;
+            background-color: #004080;
+            margin-bottom: 2rem;
         }
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 1rem;
+            font-size: 1.1rem;
+            margin: 0 1.5rem;
+            font-weight: bold;
         }
         .container {
-            max-width: 1000px;
-            margin: 2rem auto;
-            padding: 1rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
             background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding-bottom: 0.01rem; /* Add extra padding to the bottom */
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            color: #003366;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #555;
+        }
+        ul {
+            padding-left: 1.2rem;
+            list-style-type: square;
+        }
+        .experience {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .experience:last-child {
+            border-bottom: none;
+        }
+        .experience h3, .experience .position {
+            font-size: 1.1rem; /* Adjusted font size */
+            color: #003366;
+            margin-bottom: 0.2rem;
+        }
+        .experience .company {
+            font-size: 1rem;
+            color: #555;
+        }
+        .experience .duration {
+            font-size: 0.9rem; /* Adjusted font size */
+            color: #777;
+            text-align: right; /* Align duration to the right */
         }
         footer {
             text-align: center;
-            padding: 1rem 0;
-            background-color: #333;
-            color: #fff;
+            padding: 1.5rem 0;
+            background-color: #003366; /* Lighter background for better text contrast */
+            color: #ffffff !important; /* Ensure white color with important flag */
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>John Doe</h1>
-    <p>Web Developer | Software Engineer | Tech Enthusiast</p>
+    <h1>Gao Zhesi</h1>
+    <p>PhD Candidate in Finance | Tsinghua University</p>
 </header>
 
 <nav>
     <a href="#about">About</a>
-    <a href="#projects">Projects</a>
+    <a href="#research">Research</a>
+    <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
-    <a href="#blog">Blog</a>
 </nav>
 
 <div class="container">
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm John Doe, a passionate web developer with over 5 years of experience in building responsive and user-friendly websites. I specialize in front-end development with a keen eye for design and detail. When I'm not coding, you can find me exploring the latest tech trends or hiking in the mountains.</p>
+        <p>Hello! I'm Gao Zhesi, a PhD candidate in Finance at Tsinghua University. My research interests include financial markets, asset pricing, and quantitative finance. I have a passion for uncovering insights through data analysis and rigorous research methodologies.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>Project One</h3>
-        <p>A web application that helps users manage their tasks efficiently. Built using React.js and Node.js.</p>
-        <h3>Project Two</h3>
-        <p>An e-commerce website with a sleek design and seamless user experience. Developed using HTML, CSS, and JavaScript.</p>
+    <section id="research">
+        <h2>Research</h2>
+        <h3>Current Research</h3>
+        <p>My current research focuses on the impact of high-frequency trading on market efficiency. I am using large datasets and advanced econometric techniques to explore how high-frequency trading affects price discovery and market liquidity.</p>
+        <h3>Replicated Papers (Published Research by Others)</h3>
+        <ul>
+            <li>Fama French (2015) 5-factor model, Journal of Financial Economics</li>
+            <li>Daniel and Moskowitz (2016) Momentum Crashes, Journal of Financial Economics</li>
+            <li>Hou, Xue, and Zhang (2015) Q-factor model, Review of Financial Studies</li>
+            <li>Goyal and Welch (2008), Review of Financial Studies</li>
+            <li>Gu, Kelly and Xiu (2020) Empirical Asset Pricing via Machine Learning, Review of Financial Studies</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="experience">
+            <div>
+                <h3>Quantitative Research Intern</h3>
+                <p class="company">China Credit Finance Co. Ltd.</p>
+            </div>
+            <p class="duration">Beijing, China | May 2024 – Present</p>
+        </div>
+
+        <div class="experience">
+            <div>
+                <h3>Summer Researcher</h3>
+                <p class="company">UK-China (Guangdong) CCUS Centre</p>
+            </div>
+            <p class="duration">Guangzhou, China | July 2024 – August 2024</p>
+        </div>
+
+        <div class="experience">
+            <div>
+                <h3>Investment Intern, Portfolio Strategy</h3>
+                <p class="company">Allianz China Insurance Asset Management Company</p>
+            </div>
+            <p class="duration">Beijing, China | October 2023 – December 2023</p>
+        </div>
+
+        <div class="experience">
+            <div>
+                <h3>Summer Intern, Management & Execution</h3>
+                <p class="company">Invesco APAC</p>
+            </div>
+            <p class="duration">Shanghai, China | July 2023 – September 2023</p>
+        </div>
+
+        <div class="experience">
+            <div>
+                <h3>Investment Assistant, Fund 1</h3>
+                <p class="company">CMS Capital Co., Ltd.</p>
+            </div>
+            <p class="duration">Beijing, China | July 2021 – January 2022</p>
+        </div>
+
+        <div class="experience">
+            <div>
+                <h3>Part-time Assistant</h3>
+                <p class="company">Boston Consulting Group</p>
+            </div>
+            <p class="duration">Beijing, China | June 2020 – February 2021</p>
+        </div>
+    </section>
+
+    <section id="teaching">
+        <h2>Teaching Assistant Experience</h2>
+        <ul>
+            <li>Managerial Economics (Taught by Yang Zhishu, for Master of Sci-tech and Finance) - March 2024</li>
+            <li>Career Planning in Finance (Taught by Tang Hesong and Xu Ming, for FMBA) - December 2023</li>
+            <li>Business Model Innovation (Taught by Zhu Wuxiang, for Master of Sci-tech and Finance) - November 2023</li>
+            <li>Investment Management in Financial Markets (Taught by Huang Guobo, for Master of Sci-tech and Finance) - November 2023</li>
+        </ul>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: john.doe@example.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">John Doe</a></p>
-        <p>GitHub: <a href="https://github.com/johndoe">github.com/johndoe</a></p>
-    </section>
-
-    <section id="blog">
-        <h2>Blog</h2>
-        <h3>Latest Post</h3>
-        <p><strong>Exploring the Future of Web Development</strong> - In this post, I delve into the latest trends and technologies shaping the future of web development. <a href="#">Read more...</a></p>
+        <p>Email: gaozhesi@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/%E5%96%86%E6%80%9D-%E9%AB%98-19711b171/" target="_blank">Gao Zhesi</a></p>
     </section>
 </div>
 
-<footer>
-    <p>&copy; 2024 John Doe. All rights reserved.</p>
+<footer style="text-align: center; padding: 1.5rem 0; background-color: #003366; color: #ffffff;">
+    <p style="color: #e0e0e0;">&copy; <span id="year"></span> Gao Zhesi. All rights reserved.</p>
 </footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
